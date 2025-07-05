@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import PersonalProjects from './PersonalProjects';
 import Resume from './Resume';
 import Blog from './Blog';
 import Hobbies from './Hobbies';
@@ -19,7 +20,7 @@ function App() {
         {section === 'home' && <Home />}
         {section === 'about' && <AboutMe />}
         {section === 'projects' && <Projects />}
-        {section === 'resume' && <Resume />}
+        {section === 'resume' && <PersonalProjects />}
         {section === 'blog' && <Blog />}
         {section === 'hobbies' && <Hobbies />}
         {section === 'contact' && <Contact />}
