@@ -40,6 +40,16 @@ export default function Projects() {
 
       <div className="project-card">
         <h3>M.tech 2nd year</h3>
+        <p>Game Achievement Management System - The motive of this project was to demonstrate the advantages of using Microservices.
+            I have different microservices in different languages.
+        </p>
+          <a href="https://github.com/AntonyAshwin/ScalableServiceAssignment">Github</a> <br></br>
+        <p>Note : Worked on it all night - I remember Abhishek also working on something similar.
+        </p>
+      </div>
+
+      <div className="project-card">
+        <h3>M.tech 2nd year</h3>
         <p>Instrument Code Synchronization - I made a React application that provides a form for submitting and synchronizing instrument codes acorss different landscapes.</p>
           <a href="https://github.com/AntonyAshwin/FinalSemProject">Github</a> <br></br>
         <p>Note : This project was done in close collab with the org i work in. lot of 
