@@ -53,8 +53,7 @@ const slides = [
    (
     <div>
       <h2>2011 - 2017</h2>
-      <p>My brother upgraded our PC with an NVIDIA 900 series. WE loved modding GTA games. We'd modfiy files
-        of the game and come up with fun hacks. He also
+      <p>My brother upgraded our PC with an NVIDIA 900 series. WE loved modding and hacking GTA games. He also
         gifted me ACBH. I fell in love with the AC series.
       </p>
     </div>
@@ -102,8 +101,7 @@ const slides = [
   (
     <div>
       <h2>2017 - 2019</h2>
-      <p>I made many C applications as a hobby. I learnt about C++ but still didnt find OOPs relevant. why tf
-        do i even need them ? i can do everything in C that C++ can do.
+      <p>I made many C applications as a hobby. I learnt about C++ but still didnt find OOPs relevant. i can do everything in C that C++ can do.
       </p>
     </div>
   ),
@@ -147,12 +145,27 @@ const slides = [
     <div>
       <h2>2019 - 2023</h2>
       <p>In my final year, I interned in a semiconductor company that s/w prototyped chips in C - TLM.
-        I secured 3 offers. I joined the one which offered me a scholarship for my M.Tech. I also tried my shot
+        I secured 3 offers. I joined the one which offered me a scholarship for my M.Tech in software engineering. I also tried my shot
         in Navy :(
       </p>
     </div>
   ),
-
+    (
+    <div>
+      <h2>2019 - 2023</h2>
+      <p>I got my license for 2 Wheeler, 4 Wheeler and HAM radio - VU3CHG.
+        I loved talking on VHF, rarely on HF.
+      </p>
+    </div>
+  ),
+  (
+    <div>
+      <h2>2023 - 2025</h2>
+      <p>I am pursuing my M.tech while working and drawing salary. I hate HRs and their stupid questions.
+        I also upgraded my HAM radio license to VU2JEH. I love transmitting in morse code.
+      </p>
+    </div>
+  ),
 ];
 
 export default function AboutMe() {
