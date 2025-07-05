@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: 'MS Sans Serif', Tahoma, Geneva, Verdana, sans-serif !important;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+  background: #c0c0c0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
