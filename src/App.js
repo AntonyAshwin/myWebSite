@@ -38,18 +38,25 @@ useEffect(() => {
       {/* Place Play Music button below nav arrow */}
       {!musicStarted && (
         <button
-          style={{
-            marginTop: '4px',
-            fontSize: '1em',
-            padding: '6px 14px',
-            border: '2px solid #000',
-            background: '#fff',
-            cursor: 'pointer'
-          }}
-          onClick={() => setMusicStarted(true)}
-        >
-          Play Music
-        </button>
+  style={{
+    marginTop: '4px',
+    fontSize: '1em',
+    padding: '6px 14px',
+    border: '2px solid #000',
+    background: '#fff',
+    cursor: 'pointer'
+  }}
+  onClick={() => {
+    setMusicStarted(true);
+    // Simulate a click/tap on the nav arrow element
+    const navArrow = document.querySelector('.nav-arrow');
+    if (navArrow) {
+      navArrow.click();
+    }
+  }}
+>
+  Play Music
+</button>
       )}
     </div>
     <main>

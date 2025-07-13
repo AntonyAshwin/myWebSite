@@ -17,7 +17,7 @@ export default function NavBar({ onNav }) {
       )}
       <div style={{ textAlign: 'center', margin: 0, width: '100%' }}>
         <button
-          className="retro-arrow-btn"
+          className="retro-arrow-btn nav-arrow"
           style={{ fontSize: '0.9rem', margin: 0, padding: '0 6px', height: 22, minWidth: 22, borderTopLeftRadius: 0, borderTopRightRadius: 0, lineHeight: 1 }}
           onClick={() => setShowNav((v) => !v)}
           aria-label={showNav ? 'Hide navigation' : 'Show navigation'}
