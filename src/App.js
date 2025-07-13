@@ -5,7 +5,6 @@ import Home from './Home';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import PersonalProjects from './PersonalProjects';
-import Resume from './Resume';
 import Blog from './Blog';
 import Hobbies from './Hobbies';
 import Contact from './Contact';
