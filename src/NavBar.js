@@ -11,7 +11,7 @@ export default function NavBar({ onNav }) {
           <button className="nav-link" onClick={() => onNav('projects')}>Academic Projects</button>
           <button className="nav-link" onClick={() => onNav('resume')}>Personal Projects</button>
           <button className="nav-link" onClick={() => onNav('blog')}>Blog</button>
-          <button className="nav-link" onClick={() => onNav('hobbies')}>Hobbies</button>
+          <button className="nav-link" onClick={() => onNav('Stuff i love')}>Stuff i love</button>
           <button className="nav-link" onClick={() => onNav('contact')}>Contact</button>
         </nav>
       )}

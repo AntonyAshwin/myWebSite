@@ -22,7 +22,7 @@ function App() {
         {section === 'projects' && <Projects />}
         {section === 'resume' && <PersonalProjects />}
         {section === 'blog' && <Blog />}
-        {section === 'hobbies' && <Hobbies />}
+        {section === 'Stuff i love' && <Hobbies />}
         {section === 'contact' && <Contact />}
       </main>
     </div>
