@@ -22,15 +22,8 @@ const slides = [
     <div>
       <h2>2001 - 2009</h2>
       <p>I spent most of my childhood in Whitefield. I went to Ujjval Vidyalaya (near Hopefarm).
-        I loved playing hide and seek, and playing video games on PS1.
+        I loved playing video games.
       </p>
-    </div>
-  ),
-  (
-    <div>
-      <h2>2009 - 2011</h2>
-      <p>My dad got a transfer to Hubli (Zonal HQ of SWR). We packed our bags and went to Hubli. I learnt Hindi
-       and joined Kendriya Vidyalaya.</p>
     </div>
   ),
   (
@@ -45,8 +38,7 @@ const slides = [
   (
     <div>
       <h2>2011 - 2017</h2>
-      <p>My dad got another transfer back to Bangalore We packed our bags and came home. I continued my schooling
-        in Kendriya Vidyalaya MEG and Center, Bangalore.
+      <p>I continued my schooling in Kendriya Vidyalaya MEG and Center, Bangalore.
       </p>
     </div>
   ),
