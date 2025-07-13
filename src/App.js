@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import NavBar from './NavBar';
 import Home from './Home';
@@ -11,21 +11,58 @@ import Contact from './Contact';
 
 function App() {
   const [section, setSection] = useState('home');
+  const [musicStarted, setMusicStarted] = useState(false);
+  const audioRef = useRef(null);
+
+useEffect(() => {
+    if (!audioRef.current) {
+      audioRef.current = new Audio('/dontwait.mp3');
+      audioRef.current.volume = 0.5;
+      audioRef.current.loop = true;
+    }
+    if (musicStarted) {
+      audioRef.current.play().catch(() => {});
+    }
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
+    };
+  }, [musicStarted]);
 
   return (
-    <div className="App">
-      <NavBar onNav={setSection} />
-      <main>
-        {section === 'home' && <Home />}
-        {section === 'about' && <AboutMe />}
-        {section === 'projects' && <Projects />}
-        {section === 'resume' && <PersonalProjects />}
-        {section === 'blog' && <Blog />}
-        {section === 'Stuff i love' && <Hobbies />}
-        {section === 'contact' && <Contact />}
-      </main>
+  <div className="App">
+    <NavBar onNav={setSection} />
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '8px' }}>
+      {/* Place Play Music button below nav arrow */}
+      {!musicStarted && (
+        <button
+          style={{
+            marginTop: '4px',
+            fontSize: '1em',
+            padding: '6px 14px',
+            border: '2px solid #000',
+            background: '#fff',
+            cursor: 'pointer'
+          }}
+          onClick={() => setMusicStarted(true)}
+        >
+          Play Music
+        </button>
+      )}
     </div>
-  );
+    <main>
+      {section === 'home' && <Home musicStarted={musicStarted} />}
+      {section === 'about' && <AboutMe />}
+      {section === 'projects' && <Projects />}
+      {section === 'resume' && <PersonalProjects />}
+      {section === 'blog' && <Blog />}
+      {section === 'Stuff i love' && <Hobbies />}
+      {section === 'contact' && <Contact />}
+    </main>
+  </div>
+);
 }
 
 export default App;

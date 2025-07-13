@@ -50,6 +50,8 @@ const movies = [
 
 const music = [
   { name: "-", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAh1hTc86TFsBZ2tBhk9XbImhYLLILlhMO8A&s" },
+  { name: "JJ Cale", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmfwSDshsUAcG2jdorLWRyRaJHJlKQmahCh9UW6F8odT8V1n7TDSQcU3O92ZwGACRgrjk&usqp=CAU" },
+  {name: "Jimi Hendrix", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSPFaEPo75ZHANQHhax36Nlitb_YYFieeefQ&s"}
 ];
 
 
