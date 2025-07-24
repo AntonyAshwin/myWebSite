@@ -20,7 +20,46 @@ const posts = [
       </>
     )
   },
-  // Add more posts here as needed
+  {
+    title: "Death Stranding review",
+    content: (
+      <>
+      <img
+  src="https://assetsio.gnwcdn.com/death-stranding-pc-photo-mode.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
+  alt="Death Stranding"
+  style={{ maxWidth: '100%', height: 'auto', borderRadius: 8 }}
+/>   One of those games that i woudn't fitgirl repack. stars Norman Reedus as Sam Porter, a deliver guy tasked to reconnect isolated cities.
+        vrushank says this is a walking simulator. to me, its fucking unique. I havent played anything like this before.
+
+        The story is highly philosophical, very cryptic, and original. The apocalyptic futuristic world is haunted by ghost like thing called BTs and timefall - rain which ages stuff when the rain drops 
+        get in contact with the stuff. its got some really deep story plots (david lynch stuff).
+
+        Gameplay mechanics - 85% of the game is delivering stuff from one point to another. it sounds boring - its not. there are beautiful biomes, weight balancing, climbing mountains,
+        crossing rivers, avoiding these BTs, and managing resource. also its got this async multiplayer like online players can leave their resouces for you. there is combat and stealth,
+        but i dont think Kojima's focus was on them - probably added cuz of metalgear.
+
+        Graphics - honestly, not that great, i was on an AMD Ryzen 5, RX 570 4GB, 16GB RAM. I could in 1920x1080 with all high, but the graphics still looked shit. maybe i have the Anisotropic low.
+        and sharpness high. the render distance was amazing, though. Weather effects and physics are amazing - well polished. especially in the snow and rocky terrain. Characters are photo realistic. 
+
+        Music - mostly by Low Roar - very melancholic. environment sound is amazing - especially the rain, thunder, snow storms and the BT detector sounds. Voice acting are by the actors themselves. + point
+
+        Bugs and shit - didnt notice much, there are some weird jigs here and there when riding a motorcycle across rough terrain, also see them rarely when on foot - nothing major though. game is well
+        optimized. 
+        
+        Story - Huge story with very deep references and tons of terminologies, miss one and you're gonna have to goolge it - else you'd miss the next thing and end up like watching a david lynch movie. I think its 
+        got a 45 hours or something out of which lot of it is cinematics - and they are kinda the core element of this game. guys who loves movies will definetly love this game. if you are someone
+        who likes to skip cinematics and jump to gameplay - maybe not for you, go play rocket league or some shit.
+
+        Grind - I hate grinds, i just dont have the time for it, there is a bit of grind in the game for better tools and gears but honestly, you can beat the game without that too. optional quests 
+        are mostly just deliveries for more resources. you can skip them - i dont think you'll miss much (maybe an easter egg or 2)
+
+        Verdict - a 9/10 for me, must play for guys who love narrative-heavy.a very polarized experience - maybe not for everyone but yeah if it clicks you, its unforgettable. requires a lot of patience with story telling and gameplay
+        that is kinda medeative and sometimes very cryptic.
+
+      </>
+    )
+  },
+
 ];
 
 export default function Blog() {
@@ -39,7 +78,7 @@ export default function Blog() {
         </ul>
       ) : (
         <div className="blog-post">
-          <button style={{ marginBottom: 12 }} onClick={() => setSelected(null)}>← Back to list</button>
+          <button style={{ marginBottom: 12 }} onClick={() => setSelected(null)}>Back ←</button>
           <h3>{posts[selected].title}</h3>
           {posts[selected].content}
         </div>
