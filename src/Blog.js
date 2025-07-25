@@ -12,7 +12,7 @@ const posts = [
           something to awe about. okay maybe enterprise level - its a big NO and i get it, performance, securiry bla bla... but for education purpose
           come on, no way you're gonna ask your students to go to that fuck all website and download a package with jvm and mvn or gradle version.
           and explain that large piece of shit directories. Express - its simple. one file. one command and you're done. you can write that on a 
-          vi editor. Thanks you Holowaychu for coming up with this amazing creation.
+          vi editor. I am surprised they havent introduced this in engineering colleges. Thanks you Holowaychu for coming up with this amazing creation.
       </>
     )
   },
