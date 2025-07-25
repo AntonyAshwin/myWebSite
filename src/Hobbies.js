@@ -22,6 +22,8 @@ const games = [
   { name: "Road Rash", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZW-cEj9P_i6daGOCUog9zOXKMjWodiEv6w&s" },
   { name: "Avatar: the Game", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8g77tllbBnKmXQoRMJkgvVDcqRPpDValxGg&s" },
   { name: "God of War (2018)", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi2H3NVBGu3FXHoJ09cC097DAoBi8tm2FuAw&s" },
+  {name: "Red Dead Redemption 2", img: "https://sm.ign.com/ign_in/review/r/red-dead-r/red-dead-redemption-2-review_81k9.jpg" },
+  {name : "Death Stranding", img: "https://cdn.rapzilla.com/wp-content/uploads/2024/02/07201936/tc_DSDC-e1707355586764.jpeg" },
 ];
 
 const books = [
