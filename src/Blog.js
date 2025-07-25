@@ -1,6 +1,21 @@
 import React, { useState } from 'react';
 
 const posts = [
+   {
+    title: "Why i jerk off to express servers (and why you should too)",
+    content: (
+      <>
+        I dont think there is any other framework that can setup a web server as fast as express. I know python dudes will say other wise.
+        I am not certified in JS, 
+         But i love. i clocked myself to write an express server. it took me around 1:32 seconds to write and deploy a simple web service with a get and 
+          post method. which other framework can do that? spingboot ? get the fuck out. the ease of understanding express directories is itself 
+          something to awe about. okay maybe enterprise level - its a big NO and i get it, performance, securiry bla bla... but for education purpose
+          come on, no way you're gonna ask your students to go to that fuck all website and download a package with jvm and mvn or gradle version.
+          and explain that large piece of shit directories. Express - its simple. one file. one command and you're done. you can write that on a 
+          vi editor. Thanks you Holowaychu for coming up with this amazing creation.
+      </>
+    )
+  },
   {
     title: "Euphemism - I recently learnt what this means",
     content: (
