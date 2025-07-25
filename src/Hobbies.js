@@ -55,7 +55,17 @@ const music = [
   { name: "Cream", img: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ2Dd79Q9WwQMP3awmeuFGqs-cPeup2xmlo7hi3KIzSWkcesyLur3t8f5AS-xJY25acQ2ga2WCSGmjZrkcXhUpt04ovj7HXYeYec5OG5Bk" },
   { name: "JJ Cale", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmfwSDshsUAcG2jdorLWRyRaJHJlKQmahCh9UW6F8odT8V1n7TDSQcU3O92ZwGACRgrjk&usqp=CAU" },
   { name: "Jimi Hendrix", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSPFaEPo75ZHANQHhax36Nlitb_YYFieeefQ&s" },
-  { name: "Raul Seixas", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBoqWB2tRYInT6yqWIv-CmqrCffrEecXHUgqZgn8NI_mHiHD9El5yx8iHgLVA8xT3xIsaoXIxTLyA5Z6junvZJFQ" }
+  { name: "Raul Seixas", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBoqWB2tRYInT6yqWIv-CmqrCffrEecXHUgqZgn8NI_mHiHD9El5yx8iHgLVA8xT3xIsaoXIxTLyA5Z6junvZJFQ" },
+    { name: "Derek and the Dominoes", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUx_36RFF5GvJhti9Rht5zl8wjTdIsCZFZVA&s" },
+      { name: "The Yardbirds", img: "https://iconicimagesgallery.com/cdn/shop/products/GM_TYA001_0878aae2-b0bc-4cbc-bf81-a87738e6dd28_560x700.jpg?v=1673524963" }
+,
+  { name: "Radiohead", img: "https://images.bauerhosting.com/marketing/sites/16/2023/05/Radiohead-1995-hero.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80" }
+,
+  { name: "Dire Straits", img: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRe0Bu1VKCWsGLVpNg4zu_9I-Z1wDiK7XevT8s7wLf6fMeSNlNxTSQVrynCz8YKy6GYwf1btEKH7tp2JzvP6cE3-6kjBQGyRouFfrweH5-n" }
+,{ name: "PinkFloyd", img: "https://i.guim.co.uk/img/static/sys-images/Music/Pix/pictures/2011/8/25/1314281112419/The-sleeve-for-Pink-Floyd-007.jpg?width=465&dpr=1&s=none&crop=none" }
+,{ name: "Lynyrd Skynyrd", img: "https://i1.sndcdn.com/artworks-000028069683-8nlp8j-t500x500.jpg" }
+,{ name: "SRV", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHkdyZn9qwi8memUDhO44Y8EYSfialLt3zQQ&s" }
+
 ];
 
 
