@@ -75,6 +75,25 @@ const posts = [
     )
   },
 
+
+
+
+
+
+    {
+    title: "19th June 2024",
+    content: (
+      <>
+      <img
+  src="https://preview.redd.it/bengalurus-evening-sky-v0-s99djtrcr9ca1.jpg?width=640&crop=smart&auto=webp&s=c12fd2146056213e5e44d38d9125db555867a1d9"
+  alt="Death Stranding"
+  style={{ maxWidth: '100%', height: 'auto', borderRadius: 8 }}
+/>  I was dropping my brother at the airport, and we were talking about a bunch of things. Out of everything, we discussed Steve Winwood’s “Can’t Find My Way Home” - not the original by Blind Faith, but a live version with Eric Clapton. I loved the intro and the two other solos he played in it.
+
+After dropping him off, I was driving back home. The sky was orange just as I got past the toll plaza, and I had this song on loop. I could feel the breeze outside, but I had my AC on. It was beautiful, there was nothing to worry about, everything felt right. I hadn’t felt like that in a really long time. There was a lot of shit going on in 2024 too, but in that moment, everything was perfect. Nothing to worry about, it just felt so fucking good. I’ve never gotten that feeling again.</>
+    )
+  },
+
 ];
 
 export default function Blog() {
