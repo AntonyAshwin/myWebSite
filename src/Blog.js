@@ -94,6 +94,21 @@ After dropping him off, I was driving back home. The sky was orange just as I go
     )
   },
 
+   {
+    title: "10-09-2025",
+    content: (
+      <>
+    I decided to leave office a bit late today, tpying this while waiting for my deployment to finish. Its odd. I hated staying late in the office when i was in the previous company. I'd look at the clock 
+    waiting for it to hit 7 so i could punch and log out. we dont have punch time here. come wherever go whenever, i still didnt look at the time but i know its pretty late and i should head home.
+
+      </>
+    )
+  },
+
+  
+
+  
+
 ];
 
 export default function Blog() {
