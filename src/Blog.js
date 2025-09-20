@@ -45,7 +45,6 @@ const posts = [
 
 
 
-
     {
     title: "19th June 2024",
     content: (
@@ -59,6 +58,21 @@ const posts = [
 After dropping him off, I was driving back home. The sky was orange just as I got past the toll plaza, and I had this song on loop. I could feel the breeze outside, but I had my AC on. It was beautiful, there was nothing to worry about, everything felt right. I hadn’t felt like that in a really long time. There was a lot of shit going on in 2024 too, but in that moment, everything was perfect. Nothing to worry about, it just felt so fucking good. I’ve never gotten that feeling again.</>
     )
   },
+
+    {
+    title: "GTA: Vice City review",
+    content: (
+      <>
+      <img
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzpnDqnfoJBc6O7KE0r4FNfGa8HaXW8X9_aA&s"
+  alt="GTA VC"
+  style={{ maxWidth: '100%', height: 'auto', borderRadius: 8 }}
+/>
+  
+  </>
+    )
+  },
+
 
    {
     title: "10-09-2025",
