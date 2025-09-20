@@ -68,7 +68,12 @@ After dropping him off, I was driving back home. The sky was orange just as I go
   alt="GTA VC"
   style={{ maxWidth: '100%', height: 'auto', borderRadius: 8 }}
 />
-  
+  it was released in 2003 by Rockstar Games. probably a banger at that time. 
+    an alltime favourite of many, an alltime nostalgia for a lot. I originally played this in 2009 but I never got to beat it, I was maybe 8 or something. I only started playing it now after watching a lot of scorsese movies and finally scarface.
+    main plot is: Tommy Vercetti comes to VC for a drug deal, but shit goes south and he needs to sort this shit. it’s an open world game, probably the most popular one at that time, set in vice city, giving a Miami inspired 80s vibe. the last game was very dark and gritty, so I guess rockstar decided to make this a full neon, vibrant,
+    super high contrast world. amazing open world for its time, missions were not boring (god helped in the RC copter mission), awesome vehicles, cool animations. not much freedom in choosing the style to complete a mission,
+    but that’s fine after all, it was 2003. a lot of improvements over GTA 3, amazing protagonist, I didn’t know it was Ray Liotta. in fact, I didn’t know who Ray Liotta was till I started watching scorsese’s stuff. graphics are good for its time, world is small but still good.
+    not much to do once the game is complete, my favourite was the music - especially Flash FM, omg it’s the best. overall a 10/10.
   </>
     )
   },
