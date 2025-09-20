@@ -71,6 +71,16 @@ After dropping him off, I was driving back home. The sky was orange just as I go
     )
   },
 
+      {
+    title: "21-09-2025",
+    content: (
+      <>
+is this something new ? commiting in a static file directly on the repo and calling it a blog post. no db, no server code, no session. sounds cool
+
+      </>
+    )
+  },
+
   
 
   
