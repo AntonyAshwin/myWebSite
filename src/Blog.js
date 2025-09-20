@@ -1,21 +1,6 @@
 import React, { useState } from 'react';
 
 const posts = [
-   {
-    title: "Why i jerk off to node express (and why you should too)",
-    content: (
-      <>
-        I dont think there is any other framework that can setup a web service as fast as express. I know python dudes will say other wise.
-        I am not certified in JS, 
-         But i love. i clocked myself to write an express server. it took me around 1:32m to write and deploy a simple web service with a get and 
-          post method. which other framework can do that? spingboot ? get the fuck out. the ease of understanding express directories is itself 
-          something to awe about. okay maybe enterprise level - its a big NO and i get it, performance, securiry bla bla... but for education purpose
-          come on, no way you're gonna ask your students to go to that fuck all website and download a package with jvm and mvn or gradle version.
-          and explain that large piece of shit directories. Express - its simple. one file. one command and you're done. you can write that on a 
-          vi editor. I am surprised they havent introduced this in engineering colleges. Thanks you Holowaychu for coming up with this amazing creation.
-      </>
-    )
-  },
   {
     title: "Death Stranding review",
     content: (
@@ -80,7 +65,7 @@ After dropping him off, I was driving back home. The sky was orange just as I go
     content: (
       <>
     I decided to leave office a bit late today, tpying this while waiting for my deployment to finish. Its odd. I hated staying late in the office when i was in the previous company. I'd look at the clock 
-    waiting for it to hit 7 so i could punch and log out. we dont have punch time here. come wherever go whenever, i still didnt look at the time but i know its pretty late and i should head home.
+    waiting for it to hit 7 so i could punch and log out.  i still didnt look at the time but i know its pretty late and i should head home.
 
       </>
     )
