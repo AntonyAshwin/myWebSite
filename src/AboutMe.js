@@ -153,8 +153,8 @@ const slides = [
   (
     <div>
       <h2>2023 - 2025</h2>
-      <p>I am pursuing my M.tech while working and drawing salary. I hate HRs and their stupid questions.
-        I also upgraded my HAM radio license to VU2JEH. I love transmitting in morse code.
+      <p>I am pursuing my M.tech while working and drawing salary.
+        I  upgraded my HAM radio license to VU2JEH. I love transmitting in morse code.
       </p>
     </div>
   ),
