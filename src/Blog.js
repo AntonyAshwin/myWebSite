@@ -64,9 +64,7 @@ After dropping him off, I was driving back home. The sky was orange just as I go
     title: "10-09-2025",
     content: (
       <>
-    I decided to leave office a bit late today, tpying this while waiting for my deployment to finish. Its odd. I hated staying late in the office when i was in the previous company. I'd look at the clock 
-    waiting for it to hit 7 so i could punch and log out.  i still didnt look at the time but i know its pretty late and i should head home.
-
+I decided to leave office a bit late today, typing this while waiting for my deployment to finish. It’s odd, I used to hate staying late at my old company. Back then, I’d just stare at the clock, waiting for it to hit 7 so I could punch out. Now I didn’t even look at the time, but I know it’s pretty late and I should probably head home.
       </>
     )
   },
