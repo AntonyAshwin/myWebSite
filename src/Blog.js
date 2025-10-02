@@ -106,7 +106,45 @@ is this something new ? commiting in a static file directly on the repo and call
 
 Colosseum
 was excited to see this, I played a lot of ACBH, when I saw from a bit far it looked smaller, when I went closer it looked bigger, also could see the viewpoint that was in ACBH - but the place was not very crowded and also it was a bit rainy. there was tram service too and a UG metro. the place is not very modern but a classic Europe town. also liked the arch of constantine - exactly how it was in acbh
- 
+i walked across old rome while chatgpting acbh references - bunch of old buildings.
+i went back to the motel, 
+dinner -  apple, chocolate bar.
+   </>
+    )
+  },
+  
+  {
+    title: "23-09-2025",
+    content: (
+      <>
+      i'm heading to st paul's church.
+      on the way i got breakfast,
+ croissant, loaf of bread, jam
+
+, cheese, honey, scrambled eggs, pineapple juice. 
+
+i went to saint paul’s church. on the way before reaching, i saw aqueduct - exactly how it was in acbh, i love the side hustle in acbh to complete the building of aqueduct - the original is well in pieces
+
+reached, nothing special there was a mass for the ministry i think ministry of finance guys were there and lot of army dudes 2 starred - green coats
+
+i overheard the guide talk about INRI board and the nail kept omly 800m across
+not sure if i’m believing it cuz something so important wouldn’t be kept so openly, i feel probably the original is hidden somewhere.
+i reached.
+also there was a photo of the shroud that was kept on Jesus before putting him in the tomb, 
+
+then headed to Papal Basilica of Saint Mary Major - papa francis tomb - very simple plane white, jesus’s cradle’s hays were preserved there
+i saw tiber island (acbh assassin hq) and casttelo angelo 
+for lunch,  i ordered a mango juice for €2
+
+vatican museum - italian paintings and sculptures
+sistine Chappel - beautiful but the security kept asking me to move
+St peter’s basilica i saw where ezio ran with the eden, also saw the entrance of the epic rodrigo ezio fight.
+
+for dinner
+i  took a 100 bill on hopes that the restaurant guy will have change. I asked what he can recommend and he said carbonara, pork, cheese and what not, not sure. he asked if i should get something to drink, i told i’ll wait
+
+after this meal, he recommended an italian beer
+
    </>
     )
   },
