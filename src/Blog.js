@@ -98,7 +98,18 @@ is this something new ? commiting in a static file directly on the repo and call
     )
   },
 
-  
+  {
+    title: "22-09-2025",
+    content: (
+      <>
+    22/09
+
+Colosseum
+was excited to see this, I played a lot of ACBH, when I saw from a bit far it looked smaller, when I went closer it looked bigger, also could see the viewpoint that was in ACBH - but the place was not very crowded and also it was a bit rainy. there was tram service too and a UG metro. the place is not very modern but a classic Europe town. also liked the arch of constantine - exactly how it was in acbh
+ 
+   </>
+    )
+  },
 
   
 
