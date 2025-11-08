@@ -30,6 +30,7 @@ const books = [
   { name: "Digital Fortress", img: "https://upload.wikimedia.org/wikipedia/en/c/c9/DigitalFortress.jpg" },
   { name: "I Am Malala", img: "https://m.media-amazon.com/images/I/71HD8T0bYzL._UF1000,1000_QL80_.jpg" },
   { name: "Clean Code", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw-hNS7XC5c448guELCXFVUfXPKUlHQb0-rw&s" },
+   { name: "Atomic Habits", img: "https://m.media-amazon.com/images/I/81F90H7hnML._AC_UF1000,1000_QL80_.jpg" },
 ];
 
 const movies = [
