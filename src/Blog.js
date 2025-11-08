@@ -150,7 +150,7 @@ after this meal, he recommended an italian beer
   },
 
       {
-    title: "Atomic Habits",
+    title: "Atomic Habit review",
     content: (
       <>
       <img
