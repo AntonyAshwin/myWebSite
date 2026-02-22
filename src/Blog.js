@@ -68,6 +68,7 @@ it just felt so fucking good.</>
    {
     slug: "Thinking, Fast and Slow review",
     title: "Thinking, Fast and Slow review",
+    isNew: true,
     content: (
       <>
       <img
@@ -263,6 +264,19 @@ export function BlogPost() {
 export default function Blog() {
   return (
     <section className="win95-section">
+      <style>
+        {`
+          @keyframes flashNew {
+            0%, 100% { color: #c00; transform: scale(1); }
+            50% { color: #fc0; transform: scale(1.1); }
+          }
+          .new-badge {
+            animation: flashNew 0.8s ease-in-out infinite;
+            display: inline-block;
+            font-weight: bold;
+          }
+        `}
+      </style>
       <h2>Blog / Thoughts</h2>
       <ul style={{ textAlign: 'left', maxWidth: 600, margin: '0 auto' }}>
         {posts.map((post, idx) => (
@@ -271,7 +285,7 @@ export default function Blog() {
               to={`/blog/${post.slug}`}
               style={{ color: '#007', textDecoration: 'none', cursor: 'pointer' }}
             >
-              {post.title}
+              {post.title} {post.isNew && <span className="new-badge">★ new</span>}
             </Link>
           </li>
         ))}
