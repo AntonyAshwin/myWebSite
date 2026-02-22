@@ -183,7 +183,7 @@ after this meal, he recommended an italian beer
   alt="GTA VC"
   style={{ maxWidth: '100%', height: 'auto', borderRadius: 8 }}
 />
-I got to know about this book from social media, way too many guys sharing this on their LinkedIns and even on their Instagram, jeez. Anyways, I wanted to see what's up.
+I got to know about this book from social media, way too many guys sharing this on their linkedin, jeez. Anyways, I wanted to see what's up.
 I got an online copy. I started reading it on 12th Oct. I finished the book on 5th Nov in a shuttle while heading to the office. I liked it. There were a lot of things I could relate to. A very practical book, his four-step process of making or breaking a habit is something anyone can follow along; it is practical, and that's what I liked about it.
 Things like habit stacking, identity-based habits, and progress tracking are something I was already following. I just didn't know that it was a thing. But yeah, certain things were something I never thought about, like 1% improvement every day, not relying on willpower to stop a habit, and using the environment around us to break the bad habit, creating friction.
 Overall, a good read. I replaced a bad habit of listening to music and zoning out in the metro, bus, or on the treadmill with reading books. And most importantly, I got to know about Allen Carr's Easy Way to Stop Smoking book, which helped me a lot. Would recommend it if you want to cultivate good habits or break bad habits. It works.
