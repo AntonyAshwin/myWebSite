@@ -11,28 +11,15 @@ import Hobbies from './Hobbies';
 import Contact from './Contact';
 
 function App() {
-  const [section, setSection] = useState('home');
   const [musicStarted, setMusicStarted] = useState(false);
   const [musicMuted, setMusicMuted] = useState(false);
   const audioRef = useRef(null);
+  const hasAutoStartedRef = useRef(false);
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Sync section state with current route
-  useEffect(() => {
-    const path = location.pathname;
-    if (path === '/' || path === '/home') setSection('home');
-    else if (path === '/about') setSection('about');
-    else if (path === '/projects') setSection('projects');
-    else if (path === '/resume') setSection('resume');
-    else if (path.startsWith('/blog')) setSection('blog');
-    else if (path === '/hobbies') setSection('Stuff i love');
-    else if (path === '/contact') setSection('contact');
-  }, [location.pathname]);
-
   // Handle navigation from NavBar
   const handleNav = (newSection) => {
-    setSection(newSection);
     const routes = {
       'home': '/',
       'about': '/about',
@@ -55,7 +42,8 @@ function App() {
     
     // Auto-start music when directly accessing a blog post
     // Must start MUTED due to browser autoplay policy - unmuted autoplay is blocked
-    if (location.pathname.startsWith('/blog/') && !musicStarted) {
+    if (location.pathname.startsWith('/blog/') && !musicStarted && !hasAutoStartedRef.current) {
+      hasAutoStartedRef.current = true;
       setMusicMuted(true); // Start muted (browser allows this)
       setMusicStarted(true);
       audioRef.current.muted = true;
@@ -67,7 +55,7 @@ function App() {
         if (btn) btn.click();
       }, 100);
     }
-  }, []);
+  }, [location.pathname, musicStarted]);
 
   // Handle music playback state
   useEffect(() => {
