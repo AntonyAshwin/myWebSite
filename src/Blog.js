@@ -251,7 +251,7 @@ export function BlogPost() {
 
   return (
     <section className="win95-section">
-      <h2>Blog / Thoughts</h2>
+      <h2>Blog / Reviews</h2>
       <div className="blog-post">
         <button style={{ marginBottom: 12 }} onClick={() => navigate('/blog')}>Back ←</button>
         <h3>{post.title}</h3>
@@ -277,7 +277,7 @@ export default function Blog() {
           }
         `}
       </style>
-      <h2>Blog / Thoughts</h2>
+      <h2>Blog / Reviews</h2>
       <ul style={{ textAlign: 'left', maxWidth: 600, margin: '0 auto' }}>
         {posts.map((post, idx) => (
           <li key={idx} style={{ margin: '12px 0' }}>
