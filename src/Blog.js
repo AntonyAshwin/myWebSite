@@ -68,7 +68,7 @@ it just felt so fucking good.</>
    {
     slug: "Thinking, Fast and Slow review",
     title: "Thinking, Fast and Slow review",
-    isNew: true,
+    isNew: false,
     content: (
       <>
       <img
